@@ -8,7 +8,7 @@ const SkillsContainer: React.FC = () => {
   return (
     <div className="flex flex-col w-full my-6 ">
       <Heading
-        heading={SECTIONS[3]}
+        heading={SECTIONS[4]}
         id="Compétences"
         illustration={<Illustration className=" max-h-48" />}
       />

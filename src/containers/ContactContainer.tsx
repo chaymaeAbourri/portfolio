@@ -7,7 +7,7 @@ const ContactContainer: React.FC = () => {
   return (
     <div className="flex flex-col w-full my-6">
       <Heading
-        heading={SECTIONS[4]}
+        heading={SECTIONS[5]}
         id="Contact"
       />
       <div className="grid gap-6 mt-5 lg:grid-cols-3 justify-items-center md:grid-cols-1 auto-rows-fr">

@@ -1,6 +1,7 @@
 import Image from "../assets/social.jpg";
 import {
   ContactProps,
+  FormationCardProps,
   ImageType,
   MenuProps,
   ProjectCardProps,
@@ -10,15 +11,16 @@ import {
 export const URL = "https://chaymae-abourri.github.io/portfolio";
 export const NAME = "Chaymae ABOURRI";
 
-export const SECTIONS = ["Accueil", "Expériences", "Projets", "Compétences", "Contact"];
+export const SECTIONS = ["Accueil", "Expériences", "Projets", "Formations", "Compétences", "Contact"];
 export const HERO_IMAGE = "https://picsum.photos/id/1005/1600/1400";
 export const CTA_TEXT = "Voir plus";
 export const MENU: MenuProps[] = [
   { key: 1, route: "Accueil", name: SECTIONS[0] },
   { key: 2, route: "Expériences", name: SECTIONS[1] },
   { key: 3, route: "Projets", name: SECTIONS[2] },
-  { key: 4, route: "Compétences", name: SECTIONS[3] },
-  { key: 5, route: "Contact", name: SECTIONS[4] },
+  { key: 4, route: "Formations", name: SECTIONS[3] },
+  { key: 5, route: "Compétences", name: SECTIONS[4] },
+  { key: 6, route: "Contact", name: SECTIONS[5] },
 ];
 
 export const GREETING_TEXT = "Bonjour";
@@ -146,5 +148,68 @@ export const contactInfo: ContactProps[] = [
     tel: "06 63 37 61 52",
     address: "122 Rue de Clermont, Beauvais",
     img: "https://avatars.githubusercontent.com/u/49748669?v=4",
+  },
+];
+
+export const FORMATIONS: FormationCardProps[] = [
+  {
+    key: 1,
+    num: 1,
+    school: "Université de Picardie Jules Verne",
+    address: "Amiens, France",
+    title: "M 2 : Méthodes Informatiques Appliquées à la Gestion des Entreprises",
+    start: "2021",
+    end: "2022",
+    styling: "",
+  },
+  {
+    key: 2,
+    num: 2,
+    school: "Université de Picardie Jules Verne",
+    address: "Amiens, France",
+    title: "M 1 : Méthodes Informatiques Appliquée à la Gestion des Entreprises",
+    start: "2020",
+    end: "2021",
+    styling: "",
+  },
+  {
+    key: 3,
+    num: 3,
+    school: "Université de Picardie Jules Verne",
+    address: "Amiens, France",
+    title: "Licence Méthodes Informatiques Appliquées à la Gestion des Entreprise",
+    start: "2019",
+    end: "2020",
+    styling: "",
+  },
+  {
+    key: 4,
+    num: 4,
+    school: "Université de Picardie Jules Verne",
+    address: "Amiens, France",
+    title: "Licence Informatique",
+    start: "2018",
+    end: "2019",
+    styling: "",
+  },
+  {
+    key: 5,
+    num: 5,
+    school: "Ecole Supérieur de Technologie",
+    address: "Maroc",
+    title: "LP en Développement des Systèmes d'Information et de Communication",
+    start: "2017",
+    end: "2018",
+    styling: "",
+  },
+  {
+    key: 6,
+    num: 6,
+    school: "Ecole Supérieur de Technologie",
+    address: "Maroc",
+    title: "DUT en Informatique, Service et Reseau",
+    start: "2015",
+    end: "2017",
+    styling: "",
   },
 ];

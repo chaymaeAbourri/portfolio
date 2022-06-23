@@ -75,4 +75,15 @@ export type ContactProps = {
   address: string;
   img: string;
 
-}
+};
+
+export type FormationCardProps = {
+  key: number;
+  num: number;
+  school: string;
+  address: string;
+  title: string;
+  start: string;
+  end: string;
+  styling: string;
+};

@@ -9,6 +9,7 @@ import {
 } from "../data/data";
 import ContactContainer from "./ContactContainer";
 import ExperienceContainer from "./ExperienceContainer";
+import FormationContainer from "./FormationContainer";
 import ProjectsContainer from "./ProjectsContainer";
 import SkillsContainer from "./SkillsContainer";
 
@@ -24,6 +25,8 @@ const HomeContainer: React.FC = () => {
       <ExperienceContainer />
       <div className="px-12 divider" />
       <ProjectsContainer />
+      <div className="px-12 divider" />
+      <FormationContainer/>
       <div className="px-12 divider" />
       <SkillsContainer />
       <div className="px-12 divider" />
