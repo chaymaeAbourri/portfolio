@@ -32,10 +32,10 @@ const FormationCard: React.FC<FormationCardProps> = ({
       >
         <div className="card-body">
           <span className="py-0 font-bold  card-subtitle font-xs card-side">
-            {school}
+            {title}
           </span>
           <span className="font-light font-xs">
-            {title}
+            {school}
           </span>
           <span className="font-light font-xs">
             {start} - {end}
