@@ -156,7 +156,7 @@ export const contactInfo: ContactProps[] = [
     fullName: "Chaymae ABOURRI",
     email: "chaymae.abourri@gmail.com",
     tel: "06 63 37 61 52",
-    address: "122 Rue de Clermont, Beauvais",
+    address: "",
     img: "https://avatars.githubusercontent.com/u/49748669?v=4",
   },
 ];
