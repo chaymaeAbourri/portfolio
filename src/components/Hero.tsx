@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import React from "react";
 import { Link } from "react-scroll";
 import { ReactComponent as HeroIllustration } from "../assets/hero.svg";
-import { ReactComponent as Illustration } from "../assets/hero_illustration.svg";
 import { HeroProps } from "../types/types";
 
 const Hero: React.FC<HeroProps> = ({
@@ -17,13 +16,13 @@ const Hero: React.FC<HeroProps> = ({
     >
       <div className="fill-current custom-shape-divider-bottom-1628871186">
         <HeroIllustration />
-      </div>
+      </div> 
 
       <div className="text-justify hero-content text-neutral-content">
-        <Illustration
+        {/* <Illustration
           className="hidden fill-current lg:flex "
           style={{ width: "450px" }}
-        />
+        /> */}
         <div className="max-w-md ml-10">
           <motion.div
             animate={{ scale: [0.5, 1] }}
