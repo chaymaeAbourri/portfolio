@@ -28,7 +28,7 @@ const Hero: React.FC<HeroProps> = ({
             animate={{ scale: [0.5, 1] }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="mb-5 text-5xl font-bold ">{greetingText}</h1>
+            <h1 className="mb-5 text-4xl font-bold ">{greetingText}</h1>
             <p className="mb-5">{greetingDescription}</p>
             <Link
               to={"Expériences"}
