@@ -35,7 +35,7 @@ export const EXPERIENCE: TimelineProps[] = [
     logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
     start: "2020",
     end: "2022",
-    description: "Maintenance et evolution applicative d'une application de Gestion de stock. Conception et developpement d'une application Calendrier. Aider dans les choix d'architecture et des technologies des applications. Technologies: Dot net, Vba, Javascript, Html, Css, SQL, Git.",
+    description: "Maintenance et evolution applicative d'une application de Gestion de stock. Conception et developpement d'une application Calendrier. Aider dans les choix d'architectures et les technologies des applications développées. Technologies: Dot net, Vba, Javascript, Html, Css, SQL, Git.",
   },
   {
     key: 2,
@@ -44,7 +44,7 @@ export const EXPERIENCE: TimelineProps[] = [
     logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
     start: "2019-04-01",
     end: "2019-07-01",
-    description: "Une étude de l'existant, du besoins et une étude fonctionnelle du système d’analyse de données. Rédaction du cahier des charges à destination de la maîtrise d’oeuvre. La conception et la réalisation de la solution qui répond aux besoins. Technologies: JAVA/JEE, Spring, JPA, Hibernete, ReactJs, Git, Maven.",
+    description: "Une étude de l'existant, du besoins et une étude fonctionnelle du système d’analyse de données. Rédaction du cahier des charges à destination de la maîtrise d’oeuvre. La conception et la réalisation de la solution qui répond aux besoins. Technologies: JAVA/JEE, Spring, JPA, Hibernete, ReactJs, Git, Maven, Junit, Mockito.",
   },
   {
     key: 3,
@@ -111,7 +111,7 @@ export const skills: SkillsProps[] = [
   },
   {
     id: 2,
-    skill: "Dev Backend, Java/JEE, Spring, JPA, Hibernete, Dot Net",
+    skill: "Dev Backend, Java/JEE, Spring, JPA, Hibernete, SQL, PL/SQL, Junit, Mockito, Dot Net",
     level: 85,
   },
   {
