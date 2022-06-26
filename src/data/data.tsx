@@ -23,9 +23,8 @@ export const MENU: MenuProps[] = [
   { key: 6, route: "Contact", name: SECTIONS[5] },
 ];
 
-export const GREETING_TEXT = "Bonjour";
-export const GREETING_DESCRIPTION =
-  "JE SUIS CONSULTANTE ET DÉVELOPPEUSE TECHNIQUE EN ALTERNANCE CHEZ ARIUM CONSULTING";
+export const GREETING_TEXT = "Consultante Technique à la recherche d'un CDI";
+export const GREETING_DESCRIPTION = "Ouverte d’esprit - Sociable - Dynamique - Polyvalente - Curieuse - Organisée - Motivée - Sens de l’écoute";
 
 export const EXPERIENCE: TimelineProps[] = [
   {
