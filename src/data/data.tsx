@@ -35,7 +35,7 @@ export const EXPERIENCE: TimelineProps[] = [
     logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
     start: "2020",
     end: "2022",
-    description: "Maintenance d'une application de Gestion de stock en VB.NET en interaction avec l'ERP SAGE",
+    description: "Maintenance et evolution applicative d'une application de Gestion de stock. Conception et developpement d'une application Calendrier. Aider dans les choix d'architecture et des technologies des applications. Technologies: Dot net, Vba, Javascript, Html, Css, SQL, Git.",
   },
   {
     key: 2,
@@ -44,7 +44,7 @@ export const EXPERIENCE: TimelineProps[] = [
     logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
     start: "2019-04-01",
     end: "2019-07-01",
-    description: "Une étude de l'existant, du besoins et une étude fonctionnelle du système d’analyse de données. Rédaction du cahier des charges à destination de la maîtrise d’oeuvre. La conception et la réalisation de la solution qui répond aux besoins.",
+    description: "Une étude de l'existant, du besoins et une étude fonctionnelle du système d’analyse de données. Rédaction du cahier des charges à destination de la maîtrise d’oeuvre. La conception et la réalisation de la solution qui répond aux besoins. Technologies: JAVA/JEE, Spring, JPA, Hibernete, ReactJs, Git, Maven.",
   },
   {
     key: 3,
@@ -53,7 +53,7 @@ export const EXPERIENCE: TimelineProps[] = [
     logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
     start: "2017-04",
     end: "2017-05",
-    description: "Définir les besoins de la scolarité et des professeurs. Composition de l'équipe projet menée par notre chef de projet. Etablir la planification du projet à l'aide de GanttProject qui se base sur le réseau de Gant. Rédiger le cahier des charges, choisir les meilleurs outils. conception et la réalisation.",
+    description: "Définir les besoins de la scolarité et des professeurs. Composition de l'équipe projet menée par notre chef de projet. Etablir la planification du projet à l'aide de GanttProject qui se base sur le réseau de Gant. Rédiger le cahier des charges, choisir les meilleurs outils. conception et la réalisation. Technologies: JAVA/JEE, EJB, Hibernte, JBoss, Git, AngularJs.",
   },
   {
     key: 4,
@@ -62,7 +62,7 @@ export const EXPERIENCE: TimelineProps[] = [
     logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
     start: "2016-07",
     end: "2016-08",
-    description: "Gestion des incidents en PHP",
+    description: "Realisation d'une application de gestion des incidents informatiques. Technologies: PHP, Symfony, Javascript, HTML5, CSS, jQuery.",
   },
 ];
 export const KEYWORDS = [
@@ -81,7 +81,7 @@ export const projects: ProjectCardProps[] = [
     id: 1,
     projectName: "Projet PFE : Face recognition",
     projectDescription:
-      "Réalisation d’une application de reconnaissance faciale de fin d’étude (PFE) en Android",
+      "Réalisation d’une application Android de reconnaissance faciale  avec Backend Java et OpenCV",
     projectImageLogo: `https://picsum.photos/id/2/600/314`,
     link: "https://github.com/chaymaeAbourri",
     buttonText: "Voir plus détails",
@@ -91,11 +91,11 @@ export const projects: ProjectCardProps[] = [
     id: 2,
     projectName: "Projet PFE",
     projectDescription:
-      "Jeu Télé en temps réel en JavaScript et PHP",
+      "Jeu Télé en temps réel en JavaScript, Socket.io, et PHP",
     projectImageLogo: `https://picsum.photos/id/2/600/314`,
     link: "https://github.com/chaymaeAbourri",
     buttonText: "Voir plus détails",
-    tech: ["Javascript", "PHP", "Jeux"],
+    tech: ["Javascript", "PHP", "Jeux", "Temps réel"],
   },
 ];
 /**
@@ -111,32 +111,42 @@ export const skills: SkillsProps[] = [
   },
   {
     id: 2,
-    skill: "Programmation Java, C#,C, PL/SQL, Symfony, Dot Net, Web",
+    skill: "Dev Backend, Java/JEE, Spring, JPA, Hibernete, Dot Net",
     level: 85,
   },
   {
     id: 3,
-    skill: "Gestion de base de données SGBD",
+    skill: "Dev FrontEnd, Javascript, HTML, CSS, AngularJs, ReactJs",
     level: 80,
   },
   {
     id: 4,
+    skill: "Gestion de base de données SGBD, Mysql et Oracle",
+    level: 80,
+  },
+  {
+    id: 5,
     skill: "Modélisation des systèmes d'information",
     level: 90,
   },
   {
-    id: 5,
+    id: 6,
     skill: "Méthode adaptative agile",
     level: 95,
   },
   {
-    id: 6,
+    id: 7,
     skill: "Gestion de projet",
     level: 90,
   },
   {
-    id: 7,
-    skill: "Analyse de Data",
+    id: 8,
+    skill: "Analyse de Données",
+    level: 80,
+  },
+  {
+    id: 9,
+    skill: "Dev Mobile, Android Native",
     level: 80,
   },
 ];
