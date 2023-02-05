@@ -23,21 +23,39 @@ export const MENU: MenuProps[] = [
   { key: 6, route: "Contact", name: SECTIONS[5] },
 ];
 
-export const GREETING_TEXT = "Consultante Technique à la recherche d'un CDI";
+export const GREETING_TEXT = "Consultante chez Aruim consulting";
 export const GREETING_DESCRIPTION = "Ouverte d’esprit - Sociable - Dynamique - Polyvalente - Curieuse - Organisée - Motivée - Sens de l’écoute";
 
 export const EXPERIENCE: TimelineProps[] = [
   {
     key: 1,
     company: "Arium Consulting",
-    position: "Consultante Technique",
+    position: "CONSULTANTE ET DÉVELOPPEUSE CHEZ ARIUM CONSULTING",
     logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
-    start: "2020",
-    end: "2022",
-    description: "Maintenance et evolution applicative d'une application de Gestion de stock. Conception et developpement d'une application Calendrier. Aider dans les choix d'architectures et les technologies des applications développées. Technologies: Dot net, Vba, Javascript, Html, Css, SQL, Git.",
+    start: "2022",
+    end: "2023",
+    description: "Chef de projet d'application de gestion des interventions",
   },
   {
     key: 2,
+    company: "Arium Consulting",
+    position: "CONSULTANTE ET DÉVELOPPEUSE CHEZ ARIUM CONSULTING",
+    logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+    start: "2021",
+    end: "2022",
+    description: "Mise en place d'une solution cloud",
+  },
+  {
+    key: 3,
+    company: "Arium Consulting",
+    position: "CONSULTANTE ET DÉVELOPPEUSE CHEZ ARIUM CONSULTING",
+    logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+    start: "2020",
+    end: "2021",
+    description: "Maintenance et evolution applicative d'une application de Gestion de stock. Conception et developpement d'une application Calendrier. Aider dans les choix d'architectures et les technologies des applications développées. Technologies: Dot net, Vba, Javascript, Html, Css, SQL, Git.",
+  },
+  {
+    key: 4,
     company: "ASTEELFLASH FRANCE",
     position: "Consultante Technique",
     logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
@@ -46,7 +64,7 @@ export const EXPERIENCE: TimelineProps[] = [
     description: "Une étude de l'existant, du besoins et une étude fonctionnelle du système d’analyse de données. Rédaction du cahier des charges à destination de la maîtrise d’oeuvre. La conception et la réalisation de la solution qui répond aux besoins. Technologies: JAVA/JEE, Spring, JPA, Hibernete, ReactJs, Git, Maven, Junit, Mockito.",
   },
   {
-    key: 3,
+    key: 5,
     company: "l'UMI-Branche Informatique",
     position: "Stagaire",
     logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
@@ -55,7 +73,7 @@ export const EXPERIENCE: TimelineProps[] = [
     description: "Définir les besoins de la scolarité et des professeurs. Composition de l'équipe projet menée par notre chef de projet. Etablir la planification du projet à l'aide de GanttProject qui se base sur le réseau de Gant. Rédiger le cahier des charges, choisir les meilleurs outils. conception et la réalisation. Technologies: JAVA/JEE, EJB, Hibernte, JBoss, Git, AngularJs.",
   },
   {
-    key: 4,
+    key: 6,
     company: "l’OCP-Branche Informatique (Service Desc)",
     position: "Stagaire",
     logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
@@ -68,6 +86,7 @@ export const KEYWORDS = [
   "Developer",
   "DevOps",
   "Portfolio",
+  "Agile"
 ];
 export const IMAGE: ImageType = {
   src: Image,
@@ -105,49 +124,44 @@ export const projects: ProjectCardProps[] = [
 export const skills: SkillsProps[] = [
   {
     id: 1,
-    skill: "Langage de modélisation de données UML, Merise",
-    level: 80,
-  },
-  {
-    id: 2,
-    skill: "Dev Backend, Java/JEE, Spring, JPA, Hibernete, SQL, PL/SQL, Junit, Mockito, Dot Net",
-    level: 85,
-  },
-  {
-    id: 3,
-    skill: "Dev FrontEnd, Javascript, HTML, CSS, AngularJs, ReactJs",
-    level: 80,
-  },
-  {
-    id: 4,
-    skill: "Gestion de base de données SGBD, Mysql et Oracle",
-    level: 80,
-  },
-  {
-    id: 5,
-    skill: "Modélisation des systèmes d'information",
-    level: 90,
-  },
-  {
-    id: 6,
-    skill: "Méthode adaptative agile",
-    level: 95,
-  },
-  {
-    id: 7,
     skill: "Gestion de projet",
     level: 90,
   },
   {
-    id: 8,
-    skill: "Analyse de Données",
+    id: 2,
+    skill: "Méthode adaptative agile",
+    level: 95,
+  },
+  {
+    id: 3,
+    skill: "Analyse de Données, talend, Table",
     level: 80,
   },
   {
-    id: 9,
-    skill: "Dev Mobile, Android Native",
+    id: 4,
+    skill: "Langage de modélisation de données UML, Merise",
     level: 80,
   },
+  {
+    id: 5,
+    skill: "Dev Backend, Java/JEE, Spring, SQL, PL/SQL, Dot Net",
+    level: 85,
+  },
+  {
+    id: 6,
+    skill: "Dev front-end reactjs ",
+    level: 80,
+  },
+  {
+    id: 7,
+    skill: "SGBD Mysql et Oracle",
+    level: 80,
+  },
+  {
+    id: 8,
+    skill: "Dev Mobile",
+    level: 80,
+  }
 ];
 
 export const contactInfo: ContactProps[] = [
