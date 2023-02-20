@@ -24,7 +24,7 @@ export const MENU: MenuProps[] = [
 ];
 
 export const GREETING_TEXT = "Consultante chez Aruim consulting";
-export const GREETING_DESCRIPTION = "Ouverte d’esprit - Sociable - Dynamique - Polyvalente - Rigoureuse - Organisée - Motivée - Sens de l’écoute";
+export const GREETING_DESCRIPTION = "Ouverte d’esprit - Sociable - Dynamique - Polyvalente - Rigoureuse - Organisée - Motivée - Monter en compétence rapide - Sens de l’écoute";
 
 export const EXPERIENCE: TimelineProps[] = [
   {
