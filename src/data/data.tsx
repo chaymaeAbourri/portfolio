@@ -82,6 +82,7 @@ export const EXPERIENCE: TimelineProps[] = [
     start: "2016-07",
     end: "2016-08",
     description: "Realisation d'une application de gestion des incidents informatiques. Technologies: PHP, Symfony, Javascript, HTML5, CSS, jQuery.",
+    tech: ["PHP", "Symfony","Javascript","HTML5","CSS","jQuery","Git"],
   },
 ];
 export const KEYWORDS = [
