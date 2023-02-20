@@ -33,7 +33,8 @@ export const EXPERIENCE: TimelineProps[] = [
     logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
     start: "2022",
     end: "2023",
-    description: "Chef de projet d'application de gestion des interventions chez Arium Consulting ",
+    description: "Chef de projet d'application de gestion des interventions chez Arium Consulting: chargée de l'aspect fonctionnel et developpement (cahier des charges, conception, architecture et developpement) ",
+    tech: ["VB.net", "SqlServer", "UML", "Gestion de projet agile (avec Jira)"],
   },
   {
     key: 2,
