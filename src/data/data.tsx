@@ -65,7 +65,7 @@ export const EXPERIENCE: TimelineProps[] = [
     start: "2020",
     end: "2021",
     description: "Maintenance et evolution applicative d'une application de Gestion de stock. Correction des bugs et developpement des fonctionnalités manquantes",
-    tech: ["VB.net", "Sql Server","Server Windows","ERP Sage","Gestion de projet"],
+    tech: ["VB.net", "Sql Server","Windows server","ERP Sage"],
   },
   {
     key: 5,
@@ -95,7 +95,7 @@ export const EXPERIENCE: TimelineProps[] = [
     start: "2016-07",
     end: "2016-08",
     description: "Realisation d'une application de gestion des incidents informatiques. Technologies: PHP, Symfony, Javascript, HTML5, CSS, jQuery.",
-    tech: ["PHP", "Symfony","Javascript","HTML5","CSS","jQuery","Git"],
+    tech: ["PHP", "Symfony","Javascript","HTML5","CSS","jQuery"],
   },
 ];
 export const KEYWORDS = [
