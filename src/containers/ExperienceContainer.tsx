@@ -17,7 +17,7 @@ const ExperienceContainer: React.FC = () => {
         <div className="absolute h-full border border-accent border-2-2 border-opacity-20 left-1/2 "></div>
 
         {EXPERIENCE.map(
-          ({ key, company, position, description, end, start, logo }) => (
+          ({ key, company, position, description, end, start, logo, tech }) => (
             <AnimateVisible key={key}>
               {key % 2 === 0 ? (
                 <>
@@ -31,6 +31,7 @@ const ExperienceContainer: React.FC = () => {
                     position={position}
                     description={description}
                     company={company}
+                    tech={tech}
                   />
                 </>
               ) : (
@@ -44,6 +45,7 @@ const ExperienceContainer: React.FC = () => {
                   position={position}
                   description={description}
                   company={company}
+                  tech={tech}
                 />
               )}
             </AnimateVisible>

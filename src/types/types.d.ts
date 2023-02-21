@@ -6,6 +6,7 @@ export type TimelineProps = {
   start: string;
   end: string;
   description: string;
+  tech?: string[];
 };
 type ImageType = {
   src: string;

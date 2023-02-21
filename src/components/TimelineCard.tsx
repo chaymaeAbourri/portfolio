@@ -12,6 +12,7 @@ const TimelineCard: React.FC<TimelineCardProps> = ({
   position,
   logo,
   styling,
+  tech,
 }) => {
   return (
     <div
@@ -42,7 +43,21 @@ const TimelineCard: React.FC<TimelineCardProps> = ({
             {start} - {end}
           </span>
           <p className="font-light card-side">{description}</p>
+          <div className="flex">
+            {tech.map((tech) => (
+              <div
+                className={`my-2 mr-2 badge ${
+                  num % 2 !== 0
+                    ? `text-primary-content badge-primary`
+                    : `text-secondary-content badge-secondary`
+                }`}
+              >
+                {tech}{" "}
+              </div>
+            ))}
+          </div>
         </div>
+        
       </motion.div>
     </div>
   );
