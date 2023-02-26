@@ -29,13 +29,13 @@ export const GREETING_DESCRIPTION = "Rigoureuse - Empathique - Dynamique - Polyv
 export const EXPERIENCE: TimelineProps[] = [
   {
     key: 1,
-    position: "Chef de projet web",
+    position: "Chef de projet Symfony",
     company: "",
     logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
     start: "2022",
     end: "2023",
-    description: "Chef de projet d'application de gestion des interventions chez Arium Consulting: chargée de l'aspect fonctionnel et developpement (etude de l'existant et redaction du cahier des charges, conception, architecture et developpement) ",
-    tech: ["VB.net", "UML","ERP Sage", "Gestion de projet", "jira"],
+    description: "Chef de projet d'application de gestion des des devis prealable en interaction avec l'Erp Sage chez Arium Consulting: chargée de l'aspect fonctionnel et developpement (etude de l'existant et redaction du cahier des charges, conception, architecture et developpement) ",
+    tech: ["Framwork Symfoy", "UML","ERP Sage", "Gestion de projet Agile", "trello"],
   },
   {
     key: 2,
@@ -44,7 +44,7 @@ export const EXPERIENCE: TimelineProps[] = [
     logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
     start: "2022",
     end: "2023",
-    description: "Chef de projet d'application de gestion des interventions chez Arium Consulting: chargée de l'aspect fonctionnel et developpement (etude de l'existant et redaction du cahier des charges, conception, architecture et developpement) ",
+    description: "Chef de projet d'application de gestion des interventions chez Arium Consulting en interaction avec l'erp Sage : chargée de l'aspect fonctionnel et developpement (etude de l'existant et redaction du cahier des charges, conception, architecture et developpement) ",
     tech: ["VB.net", "UML","ERP Sage","Gestion de projet", "jira"],
   },
   {
