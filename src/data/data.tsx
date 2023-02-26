@@ -140,13 +140,13 @@ export const projects: ProjectCardProps[] = [
 export const skills: SkillsProps[] = [
   {
     id: 1,
-    skill: "Gestion de projet",
+    skill: "Gestion de projet Agile",
     level: 90,
   },
   {
     id: 2,
-    skill: "Méthode adaptative agile",
-    level: 95,
+    skill: "DATA : PowerBI,Tableau",
+    level: 80,
   },
   {
     id: 3,
