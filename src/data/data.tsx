@@ -75,8 +75,8 @@ export const EXPERIENCE: TimelineProps[] = [
     logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
     start: "2019-04-01",
     end: "2019-07-01",
-    description: " Application d'amelioration de la traçabilité process des cartes electroniques d'Arium Consulting: developpement et etude fonctionnelle (etude de l'existant, analyse du besoins, rédaction du cahier des charges à destination de la maîtrise d’oeuvre. La conception et la réalisation de la solution qui répond aux besoins",
-    tech: ["C#", "Sql Server","ERP MFG Pro","Gestion de projet"],
+    description: " Application d'amelioration de la traçabilité process des cartes electroniques AsteelFlash: developpement et etude fonctionnelle (etude de l'existant, analyse du besoins, rédaction du cahier des charges à destination de la maîtrise d’oeuvre. La conception et la réalisation de la solution qui répond aux besoins",
+    tech: ["C#", "Sql Server","ERP MFG Pro","Gestion de projet Agile"],
   },
   {
     key: 6,
