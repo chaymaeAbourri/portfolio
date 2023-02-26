@@ -35,7 +35,7 @@ export const EXPERIENCE: TimelineProps[] = [
     start: "2022",
     end: "2023",
     description: "Chef de projet d'application de gestion des des devis prealable en interaction avec l'Erp Sage chez Arium Consulting: chargée de l'aspect fonctionnel et developpement (etude de l'existant et redaction du cahier des charges, conception, architecture et developpement) ",
-    tech: ["Symfoy","Javascript","HTML5","CSS","jQuery", "UML","ERP Sage", "G.P Agile", "trello",],
+    tech: ["Symfoy","Javascript","HTML5","CSS","jQuery", "UML","Sage", "GP Agile","trello"],
   },
   {
     key: 2,
@@ -45,7 +45,7 @@ export const EXPERIENCE: TimelineProps[] = [
     start: "2022",
     end: "2023",
     description: "Chef de projet d'application de gestion des interventions chez Arium Consulting en interaction avec l'erp Sage : chargée de l'aspect fonctionnel et developpement (etude de l'existant et redaction du cahier des charges, conception, architecture et developpement) ",
-    tech: ["VB.net", "UML","ERP Sage","Gestion de projet", "jira"],
+    tech: ["VB.net", "UML","ERP Sage","GP Agile","trello"],
   },
   {
     key: 3,
