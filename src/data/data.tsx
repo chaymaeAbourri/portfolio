@@ -49,7 +49,7 @@ export const EXPERIENCE: TimelineProps[] = [
   },
   {
     key: 3,
-    company: "Responsable Cloud Eperius Storage",
+    company: "Responsable Solution Cloud Lperius Storage",
     position: "",
     logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
     start: "2021",
@@ -69,8 +69,8 @@ export const EXPERIENCE: TimelineProps[] = [
   },
   {
     key: 5,
-    company: "ASTEELFLASH FRANCE",
-    position: "Consultante Technique et developpeuse",
+    position: "ASTEELFLASH FRANCE",
+    company: "Consultante Technique et developpeuse",
     logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
     start: "2019-04-01",
     end: "2019-07-01",
@@ -79,8 +79,8 @@ export const EXPERIENCE: TimelineProps[] = [
   },
   {
     key: 6,
-    company: "l'UMI-Branche Informatique",
-    position: "Stagaire Developpeuse JEE",
+    position: "l'UMI-Branche Informatique",
+    company: "Stagaire Developpeuse JEE",
     logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
     start: "2017-04",
     end: "2017-05",
@@ -89,8 +89,8 @@ export const EXPERIENCE: TimelineProps[] = [
   },
   {
     key: 7,
-    company: "l’OCP-Branche Informatique (Service Desc)",
-    position: "Stagaire Developpeuse Php",
+    position: "l’OCP-Branche Informatique (Service Desc)",
+    company: "Stagaire Developpeuse Php",
     logo: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
     start: "2016-07",
     end: "2016-08",
